@@ -1,0 +1,25 @@
+/* CTA section styles */
+.cta {
+    background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+    text-align: center;
+}
+
+.cta h2 {
+    color: #1E90FF;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cta .container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .cta h2 {
+        font-size: 2rem;
+    }
+ 
+}
